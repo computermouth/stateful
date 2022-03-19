@@ -22,6 +22,6 @@ typedef struct {
 } game_state_t;
 
 extern game_state_t gs;
-extern state_table_item_t state_table[END_STATE];
+extern const state_table_item_t state_table[END_STATE];
 
 #endif
